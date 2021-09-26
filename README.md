@@ -32,12 +32,12 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts. <br/>
 Do not assume the numbers tell you what you want them to tell. <br/>
 
-Benchmark CustomerOrderServiceBenchMark.saveCustomerWithOrdersBenchMark <br/>
+<b>Benchmark</b> CustomerOrderServiceBenchMark.saveCustomerWithOrdersBenchMark <br/>
 Mode avgt <br/>
 Cnt 3 <br/>
 Score 4097.767 <br/>
 Error ± 25662.331 <br/>
-Units us/op <br/>
+Units us/op <br/> <br/>
 Benchmark result is saved to target/jmh-result-04-26-2021-05-04-06.json <br/>
 
 ![Java Microbenchmark Harness](doc/jmh_result.png) <br/>
