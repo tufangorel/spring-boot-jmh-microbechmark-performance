@@ -24,7 +24,7 @@ Result "com.company.customerinfo.benchmark.impl.CustomerOrderServiceBenchMark.sa
        (min, avg, max) = (2805.100, 4097.767, 5595.800), stdev = 1406.639 <br/>
        CI (99.9%): [≈ 0, 29760.098] (assumes normal distribution) <br/>
 
-# Run complete. Total time: 00:00:12 <br/>
+Run complete. Total time: 00:00:12 <br/>
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on <br/>
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial <br/>
