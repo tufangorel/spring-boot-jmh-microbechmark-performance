@@ -24,7 +24,7 @@ Result "com.company.customerinfo.benchmark.impl.CustomerOrderServiceBenchMark.sa
        (min, avg, max) = (2805.100, 4097.767, 5595.800), stdev = 1406.639 <br/>
        CI (99.9%): [≈ 0, 29760.098] (assumes normal distribution) <br/>
 
-# Run complete. Total time: 00:00:12 <br/>
+Run complete. Total time: 00:00:12 <br/>
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on <br/>
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial <br/>
@@ -32,10 +32,13 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts. <br/>
 Do not assume the numbers tell you what you want them to tell. <br/>
 
-Benchmark                                                      Mode  Cnt     Score       Error  Units <br/>
-CustomerOrderServiceBenchMark.saveCustomerWithOrdersBenchMark  avgt    3  4097.767 ± 25662.331  us/op <br/>
-
-Benchmark result is saved to target/jmh-result-04-26-2021-05-04-06.json <br/>
+<b>Benchmark</b> CustomerOrderServiceBenchMark.saveCustomerWithOrdersBenchMark <br/>
+<b>Mode</b> avgt <br/>
+<b>Cnt</b> 3 <br/>
+<b>Score</b> 4097.767 <br/>
+<b>Error</b> ± 25662.331 <br/>
+<b>Units</b> us/op <br/> <br/>
+Benchmark result is saved to <b>target/jmh-result-04-26-2021-05-04-06.json</b> <br/>
 
 ![Java Microbenchmark Harness](doc/jmh_result.png) <br/>
 
