@@ -33,12 +33,12 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell. <br/>
 
 <b>Benchmark</b> CustomerOrderServiceBenchMark.saveCustomerWithOrdersBenchMark <br/>
-Mode avgt <br/>
-Cnt 3 <br/>
-Score 4097.767 <br/>
-Error ± 25662.331 <br/>
-Units us/op <br/> <br/>
-Benchmark result is saved to target/jmh-result-04-26-2021-05-04-06.json <br/>
+<b>Mode</b> avgt <br/>
+<b>Cnt</b> 3 <br/>
+<b>Score</b> 4097.767 <br/>
+<b>Error</b> ± 25662.331 <br/>
+<b>Units</b> us/op <br/> <br/>
+Benchmark result is saved to <b>target/jmh-result-04-26-2021-05-04-06.json</b> <br/>
 
 ![Java Microbenchmark Harness](doc/jmh_result.png) <br/>
 
