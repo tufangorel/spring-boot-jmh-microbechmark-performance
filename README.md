@@ -32,8 +32,7 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts. <br/>
 Do not assume the numbers tell you what you want them to tell. <br/>
 
-Benchmark <br/>
-CustomerOrderServiceBenchMark.saveCustomerWithOrdersBenchMark <br/>
+Benchmark CustomerOrderServiceBenchMark.saveCustomerWithOrdersBenchMark <br/>
 Mode avgt <br/>
 Cnt 3 <br/>
 Score 4097.767 <br/>
