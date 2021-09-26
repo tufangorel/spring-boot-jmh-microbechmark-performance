@@ -52,4 +52,26 @@ public class CustomerOrderServiceBenchMark {
         return true;
     }
 
+    @Benchmark
+    public void findCustomerByIDBenchMark(final Blackhole bh) {
+
+        Customer customer = new Customer();
+        customer.setName("name1");
+        customer.setAge(1);
+
+        ShippingAddress shippingAddress = new ShippingAddress();
+        shippingAddress.setCountry("TR");
+        shippingAddress.setCity("Ankara");
+        shippingAddress.setStreetName("KaleSokak");
+        customer.setShippingAddress(shippingAddress);
+
+        Customer customerSaved = customerService.save(customer);
+        bh.consume(executeFindCustomerByID(customerSaved));
+    }
+
+    private boolean executeFindCustomerByID(final Customer customer) {
+        customerService.findCustomerByID(customer.getId());
+        return true;
+    }
+
 }
